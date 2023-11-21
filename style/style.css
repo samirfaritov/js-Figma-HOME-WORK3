@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* list-style: none; */
+    /* text-decoration: none; */
+    box-sizing: border-box;
+    /* outline: none; */
+}
+
+.conteiner {
+    width: 70%;
+    height: 100vh;
+    position: relative;
+}
+
+.conteiner .okno {
+    cursor: pointer;
+    width: 400px;
+    height: 50px;
+    background-color: #000;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+
+
+
+.conteiner .okno p {
+    font-size: 20px;
+    color: #fff;
+
+}
+
+.conteiner .box {
+    width: 592px;
+height: 388px;
+flex-shrink: 0;
+background: #F0F0F0;
+margin-top: 120px;
+padding: 80px;
+display: none;
+animation: fade 1.5s;
+}
+
+.conteiner .b {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteiner .box p {
+    color: #000;
+font-family: Gilroy;
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.conteiner .b .box .inp {
+    display: grid;
+    gap: 10px;
+}
+
+input {
+    width: 420px;
+    height: 48px;
+    flex-shrink: 0;
+    background: #DADADA;
+    border: 1px solid transparent;
+    font-size: 30px;
+}
+
+button {
+    background: #0094FF;
+    width: 420px;
+    height: 48px;
+    flex-shrink: 0;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.svg {
+    position: relative;
+    bottom: 316px;
+    left: 479px;
+    cursor: pointer;
+}
+
+.menyu {
+    width: 30%;
+    height: 100vh;
+    background-color: #000;
+    position: absolute;
+    right: -456px;
+    top: 0;
+    padding: 180px 50px;
+    /* display: none; */
+    animation: fade 1.5s;
+    transition: .5s all linear;
+}
+
+body {
+    overflow: hidden;
+}
+
+
+
+.menyu p {
+    color: #FFF;
+font-family: Gilroy;
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.menyu ul {
+    display: grid;
+    gap: 10px;
+}
+
+.menyu ul li {
+    color: #FFF;
+font-family: Gilroy;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+cursor: pointer;
+}
+
+.bx {
+    font-family: boxicons!important;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+    display: inline-block;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.svg1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 30px;
+    cursor: pointer;
+}
