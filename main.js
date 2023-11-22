@@ -36,7 +36,7 @@ bx.addEventListener('click', () => {
 
 svg1.addEventListener('click', () => {
     menyu.style.positionAbsolute
-    menyu.style.right = '-456px'
+    menyu.style.right = '-500px'
     bx.style.display = 'block'
 })
 
